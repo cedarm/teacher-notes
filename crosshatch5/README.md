@@ -1,11 +1,20 @@
+# Still life
+ - Using Blender v2.78
+
+![Comparison of original and imitation](compare_thumb.png)
+
+[Original](reference/136755126_a5868fdbea_b.jpg) from [Travis Price](https://www.flickr.com/photos/digitalcraftsman/136755126/in/photostream/)
+and
+[our imitation](renders/crosshatch5.png)
+
 ## Setup
  - enable pie menus
  - remove default objects
  - cycles
  - experimental (adaptive subdiv)
- - frame size
+ - frame size 1024 x 854
  - sampling
-   - samples, squared, 32/12 (render/preview)
+   - samples, squared, 40/12 (render/preview)
    - clamp indirect 5.0, or try new denoising
  - filmic
 
@@ -53,8 +62,8 @@
 
 ### table material
  - standard fresnel mix
- - diffuse 0.33 white
- - roughness 0.2
+ - diffuse 0.45 white
+ - roughness 0.25
 
 ### principled shader
 
@@ -121,7 +130,7 @@
    - r y 75
    - g z 2.4
    - g x 1.8
-   - g y 0.25
+   - g y -1.0
  - material
    - standard fresnel mix
    - diffuse 0.90 white
@@ -149,6 +158,9 @@
      - diffuse 0.01 black
      - roughness 0.1
    - g yy 0.55 (somewhere between 0.50 - 0.80)
+
+### other bounce board
+ - next to right side of backdrop (x=5.5)
 
 ### other light
  - emission shader, 1.0 white
