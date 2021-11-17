@@ -2,6 +2,8 @@
 
 From [Sage Reynolds](https://www.youtube.com/watch?v=8gc9wnUCfIk&index=2&list=PLD7C33982F6FF2019)' video series
 
+More tips and fixtures in this [book conservation video](https://www.youtube.com/watch?v=9V_pGZO8pL4)
+
 ## Choose paper size and imposition
  - Consider grain direction and number of folds
 
